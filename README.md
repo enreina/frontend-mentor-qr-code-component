@@ -10,21 +10,23 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 - [My process](#my-process)
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
-  - [Continued development](#continued-development)
+  - [Takeaways](#takeaways)
+  - [Future Improvement](#future-improvement)
   - [Useful resources](#useful-resources)
 - [Author](#author)
 - [Acknowledgments](#acknowledgments)
-
-**Note: Delete this note and update the table of contents based on what sections you keep.**
 
 ## Overview
 
 ### Screenshot
 
 **Desktop**
-![](./screenshot.jpg)
+
+![](./qr-code-component-desktop-screenshot.png)
 
 **Mobile**
+
+![](qr-code-component-mobile-screenshot.png)
 
 ### Links
 
@@ -38,11 +40,13 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 - [HTML](https://developer.mozilla.org/en-US/docs/Glossary/HTML)
 - [Tailwind CSS](https://tailwindcss.com/)
 
-### What I learned (+ resources I found on the net)
+### What I learned
+
+Overall, I tried to work on the page from the outer part (i.e. grey background) to the inner part (i.e. the QR code image and the text). For layout sizing (width, height, margin, and padding), I checked the size/gap lengths on the provided design JPGs, and try to find the appropriate Tailwind CSS utility class closest to the intended size. I tried to avoid custom size as much as possible.
 
 - **Using Tailwind with vanilla HTML**
 
-  Because this is my first time working on Frontend Mentor challenge and my first time to use Tailwind CSS, I use Tailwind's [Play CDN](https://tailwindcss.com/docs/installation/play-cdn) to work on the solution rapidly. Ideally, the Play CDN should not be used for real production project.
+  Because this is my first time working on a Frontend Mentor challenge and my first time to use Tailwind CSS, I use Tailwind's [Play CDN](https://tailwindcss.com/docs/installation/play-cdn) to work on the solution rapidly. Ideally, the Play CDN should not be used for real production project.
 
 - **Using custom colors**
 
@@ -126,7 +130,7 @@ Another takeaway: I need to brush up on my flex / layout / grid stuff as I still
 
 ### Future Improvement
 
-It's not part of the challenge but I might expand the challenge to use React and add a feature enhancement to generate the QR code dynamically by inputting a URL to a text field.
+It's not part of the challenge but I might expand the solution to use React and add a feature enhancement to generate the QR code dynamically by inputting a URL to a text field.
 
 ### Useful resources
 
